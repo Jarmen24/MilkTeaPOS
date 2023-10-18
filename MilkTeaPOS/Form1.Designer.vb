@@ -140,7 +140,7 @@ Partial Class Form1
         Me.buyBtn.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None
         Me.buyBtn.Cursor = System.Windows.Forms.Cursors.Hand
         Me.buyBtn.Image = Global.MilkTeaPOS.My.Resources.Resources.Basket___Filled
-        Me.buyBtn.Location = New System.Drawing.Point(0, 133)
+        Me.buyBtn.Location = New System.Drawing.Point(0, 135)
         Me.buyBtn.Margin = New System.Windows.Forms.Padding(3, 20, 3, 20)
         Me.buyBtn.Name = "buyBtn"
         Me.buyBtn.Padding = New System.Windows.Forms.Padding(0, 10, 0, 40)
