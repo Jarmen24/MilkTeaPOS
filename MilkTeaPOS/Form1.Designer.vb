@@ -31,7 +31,6 @@ Partial Class Form1
         Me.buyBtn = New System.Windows.Forms.PictureBox()
         Me.Panel2 = New System.Windows.Forms.Panel()
         Me.PictureBox1 = New System.Windows.Forms.PictureBox()
-        Me.PictureBox2 = New System.Windows.Forms.PictureBox()
         Me.Panel1.SuspendLayout()
         CType(Me.settingsBtn, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.analyticsBtn, System.ComponentModel.ISupportInitialize).BeginInit()
@@ -41,7 +40,6 @@ Partial Class Form1
         CType(Me.buyBtn, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.Panel2.SuspendLayout()
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.PictureBox2, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
         'Panel1
@@ -173,28 +171,12 @@ Partial Class Form1
         Me.PictureBox1.TabIndex = 3
         Me.PictureBox1.TabStop = False
         '
-        'PictureBox2
-        '
-        Me.PictureBox2.BackColor = System.Drawing.Color.Transparent
-        Me.PictureBox2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None
-        Me.PictureBox2.Cursor = System.Windows.Forms.Cursors.Hand
-        Me.PictureBox2.Image = Global.MilkTeaPOS.My.Resources.Resources.Basket___Filled
-        Me.PictureBox2.Location = New System.Drawing.Point(213, 251)
-        Me.PictureBox2.Margin = New System.Windows.Forms.Padding(3, 20, 3, 20)
-        Me.PictureBox2.Name = "PictureBox2"
-        Me.PictureBox2.Padding = New System.Windows.Forms.Padding(0, 10, 0, 40)
-        Me.PictureBox2.Size = New System.Drawing.Size(88, 50)
-        Me.PictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom
-        Me.PictureBox2.TabIndex = 10
-        Me.PictureBox2.TabStop = False
-        '
         'Form1
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 16.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.CausesValidation = False
         Me.ClientSize = New System.Drawing.Size(1031, 575)
-        Me.Controls.Add(Me.PictureBox2)
         Me.Controls.Add(Me.Panel1)
         Me.Name = "Form1"
         Me.SizeGripStyle = System.Windows.Forms.SizeGripStyle.Hide
@@ -209,7 +191,6 @@ Partial Class Form1
         CType(Me.buyBtn, System.ComponentModel.ISupportInitialize).EndInit()
         Me.Panel2.ResumeLayout(False)
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.PictureBox2, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)
 
     End Sub
@@ -223,5 +204,4 @@ Partial Class Form1
     Friend WithEvents prodBtn As PictureBox
     Friend WithEvents editBtn As PictureBox
     Friend WithEvents settingsBtn As PictureBox
-    Friend WithEvents PictureBox2 As PictureBox
 End Class
